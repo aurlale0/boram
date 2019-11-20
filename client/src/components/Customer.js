@@ -6,7 +6,7 @@ class Customer extends React.Component{
     render(){
         return(
             <TableRow>
-                <TableCell>{this.props.idx}</TableCell>
+                <TableCell>{this.props.id}</TableCell>
                 <TableCell><img src={this.props.image} alt="profileImage"/></TableCell>
                 <TableCell>{this.props.name}</TableCell>
                 <TableCell>{this.props.birthday}</TableCell>
